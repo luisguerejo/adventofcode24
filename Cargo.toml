@@ -1,0 +1,14 @@
+[package]
+name = "AOC"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+debug = true
+
+[[bin]]
+name = "dayone"
+path = "src/dayone.rs"
+debug = true
